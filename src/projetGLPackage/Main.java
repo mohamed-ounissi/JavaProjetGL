@@ -33,6 +33,12 @@ public class Main {
                     Réunion.main(args);
                     
                 case 5:
+                    
+                	Gallery.main(args);
+                case 6:
+                    
+                	Evenement.main(args);;    
+                case 7:
                     continuer = false;
                     break;
                 default:
@@ -50,7 +56,9 @@ public class Main {
         System.out.println("2. Gérer les Documents");
         System.out.println("3. Envoyer Email");
         System.out.println("4. Gérer Réunion");
-        System.out.println("5. Quitter");
+        System.out.println("5. Gérer gallerie");
+        System.out.println("6. Gérer Evenement");
+        System.out.println("7. Quitter");
         System.out.print("Choix : ");
     }
 }
